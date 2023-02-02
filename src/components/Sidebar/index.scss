@@ -1,6 +1,6 @@
 .nav-bar {
   background: #181818;
-  width: 70px;
+  width: 60px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -60,22 +60,23 @@
         width: 100%;
         text-align: center;
         opacity: 0;
+        -webkit-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out;
       }
 
       &:first-child {
-        &::after {
+        &:after {
           content: "HOME";
         }
       }
     }
     a.about-link {
-      &::after {
+      &:after {
         content: "ABOUT";
       }
     }
     a.contact-link {
-      &::after {
+      &:after {
         content: "CONTACT";
       }
     }
@@ -101,6 +102,7 @@
         display: block;
         font-size: 18px;
         line-height: 19px;
+        color: #4d4d4e;
 
         &:hover svg {
           color: #e9990e;
