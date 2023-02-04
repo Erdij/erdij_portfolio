@@ -3,6 +3,7 @@ import E_letter from "../../assets/images/E_letter.png"
 import { Link } from "react-router-dom"
 import "./index.scss"
 import AnimatedLetters from "../AnimatedLetters"
+import Loader from "react-loaders"
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate")
@@ -56,6 +57,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
+      <Loader type='pacman' />
     </>
   )
 }
