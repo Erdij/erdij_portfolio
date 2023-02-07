@@ -52,7 +52,6 @@
   }
   .flat-button {
     color: #ffd700;
-    background: 0 0;
     font-size: 11px;
     letter-spacing: 3px;
     text-decoration: none;
@@ -60,5 +59,10 @@
     border: 1px solid #ffd700;
     float: left;
     border-radius: 4px;
+    background: 0 0;
+    text-transform: uppercase;
+    float: right;
+    text-align: center;
+    margin-right: 10px;
   }
 }
