@@ -5,7 +5,7 @@ import AnimatedLetters from "../AnimatedLetters"
 import "./index.scss"
 
 const Skills = () => {
-  const [letterClass, setLetterClass] = useState("text - animate")
+  const [letterClass, setLetterClass] = useState("text-animate")
 
   useEffect(() => {
     setTimeout(() => {
@@ -19,8 +19,24 @@ const Skills = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={["S", "k", "i", "l", "l", "s"]}
-              idx={9}
+              strArray={[
+                "F",
+                "r",
+                "o",
+                "n",
+                "t",
+                "e",
+                "n",
+                "d",
+                " ",
+                "S",
+                "k",
+                "i",
+                "l",
+                "l",
+                "s",
+              ]}
+              idx={15}
             />
           </h1>
           <div className='skills-area'>
