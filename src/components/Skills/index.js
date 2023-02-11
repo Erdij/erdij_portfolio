@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react"
 import Loader from "react-loaders"
 import AnimatedLetters from "../AnimatedLetters"
+import react from "../../assets/images/react.png"
+import javascript from "../../assets/images/javascript.svg"
+import html5 from "../../assets/images/html5.svg"
 
 import "./index.scss"
 
@@ -41,7 +44,9 @@ const Skills = () => {
           </h1>
           <div className='skills-area'>
             <div className='skill'>
-              <img src='' alt='' />
+              <img src={react} alt='developer' />
+              <img src={javascript} alt='developer' />
+              <img src={html5} alt='developer' />
             </div>
           </div>
         </div>
