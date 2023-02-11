@@ -1,5 +1,4 @@
 import "./index.scss"
-
 import React, { useRef } from "react"
 import { useState, useEffect } from "react"
 import Loader from "react-loaders"
